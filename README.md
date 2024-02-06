@@ -27,6 +27,9 @@ MSG = """
 #бобры #животные #природа
 """
 ### KEYBOARD MARKUP ###
+kb = InlineKeyboardBuilder()
+kb.button(text="Открыть чат", url="https://t.me/ai_studgpt_bot")
+MARKUP = kb.as_markup()
 ```
 
 ### Запуск рассылки
